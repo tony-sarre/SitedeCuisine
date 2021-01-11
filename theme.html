@@ -1,0 +1,657 @@
+    <!DOCTYPE html>
+    <html>
+    <head>
+       <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+    <!--css-->
+           <link rel="stylesheet" href="css/linearicons.css">
+            <link rel="stylesheet" href="css/font-awesome.min.css">
+            <link rel="stylesheet" href="css/bootstrap.css">
+            <link rel="stylesheet" href="css/magnific-popup.css">
+            <link rel="stylesheet" href="css/owl.carousel.css">
+            <link rel="stylesheet" href="css/style.css">
+
+
+    <script src="script.js" type="text/javascript"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/454bb1aaee.js" crossorigin="anonymous"></script>
+    <title>Tony Delice</title>
+
+
+   <!-- <style>
+          #diaporama{
+            position: relative;
+            width: 200px;
+            height: 200px;
+          }
+          #diaporama .diapoImg{
+            position: absolute;
+            top: 0px;
+            left: 400px;
+          }
+          
+
+    </style>
+    <script type="text/javascript">
+           var scDiaporama={
+            tab:Array(),
+            init:function($imgs, delais, transition){
+                var i=scDiaporama.tab.length;
+                scDiaporama.tab.push({
+                    $imgs:$imgs,
+                    delais:delais,
+                    transition:transition
+                });
+                window.setTimeout('scDiaporama.changement('+i+')',delais);
+                return(i);
+            },
+            changement:function(i){
+                scDiaporama.tab[i].$imgs.eq(-1).fadeout(scDiaporama.tab[i].transition, function(){
+                    scDiaporama.tab[i].$imgs.parent().prepend(scDiaporama.tab[i].$imgs.eq(-1).show());
+                     scDiaporama.tab[i].$imgs=$(scDiaporama.tab[i].$imgs.selector);
+                     window.setTimeout('scDiaporama.changement('+i+')',scDiaporama.tab[i].delais);
+                });
+            }
+           };
+           $(document).ready(function(){
+            scDiaporama.init($('#diaporama.diapoImg'), 1000,600)
+           });
+    </script>-->
+
+    </head>
+    <body>
+
+            <nav class="navbar navbar-expand-lg navbar-dark bg-info fixed-top">
+    
+                <!--<a class="navbar-brand" href="#">Navbar</a>-->
+             <a href="#"><i class="fas fa-seedling text-primary fa-2x"></i></a>
+
+             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+             </button>
+
+             <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    
+    
+                 <ul class="navbar-nav mr-auto">
+                     <li class="nav-item">
+                         <a class="nav-link" href="index.html">HOME<!--<span class="sr-only">(current)</span>--></a>
+                     </li>
+                      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="theme.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          THEMES
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="theme.html#tendance">TENDANCES</a>
+          <a class="dropdown-item" href="theme.html#classique">CLASSIQUES</a>
+          <a class="dropdown-item" href="theme.html#fete">FETES</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="theme.html#idees">PLUS D'IDEES</a>
+        </div>
+      </li>
+                     <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="recette.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          RECETTES
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="recette.html#categorie">CATEGORIE</a>
+          <a class="dropdown-item" href="recette.html#ingredient">INGREDIENTS</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="recette.html#plat">PLATS</a>
+        </div>
+      </li>
+                     <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="actus.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          ACTUS
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="actus.html#tech_et_astuce">TECHNIQUES ET ASTUCES</a>
+          <a class="dropdown-item" href="actus.html#mieux_manger">MIEUX MANGER</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="actus.html#le_saviez-vous">LE SAVIEZ-VOUS?</a>
+        </div>
+      </li>
+                 </ul>
+                 <form class="form-inline my-2 my-lg-0">
+                     <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                         <button class="btn btn-outline-primary my-2 my-sm-0" type="submit" style= background-color:"light"><i class="fas fa-search"></i>Search</button>
+                  </form>
+             </div>
+            </nav>
+
+            <div class="container-fluid" style= "margin-top:50px;">
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+                 <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img class="d-block w-100" src="img/theme/fete/choco.jpeg" alt="First slide" width="100%" height="500px">
+                     </div>
+                     <div class="carousel-item">
+                         <img class="d-block w-100" src="img/theme/fete/ramadan.jpeg" alt="Second slide"width="100%" height="500px">
+                     </div>
+                     <div class="carousel-item">
+                         <img class="d-block w-100" src="img/theme/fete/dessert-saint-valentin.jpg" alt="Third slide"width="100%" height="500px">
+                     </div>
+                     <div class="carousel-item">
+                         <img class="d-block w-100" src="img/theme/fete/decoration-pour-buche-de-noel.jpeg" alt="Third slide"width="100%" height="500px">
+                     </div>
+                     
+                 </div>
+           </div>
+         </div>
+      </div>
+       
+    </div>
+                
+            
+            <!-- End banner Area -->    
+            
+            <!-- Start service Area -->
+            <section class="service-area section-gap" id="tendance"> 
+                <div class="container">
+                    <div class="row d-flex justify-content-center">
+                        <div class="menu-content pb-70 col-lg-8">
+                            <div class="title text-center">
+                                <h1 class="mb-10">Un aperçu sur les tendances</h1>
+                                <h2>Recettes anti-gaspi : cuisiner avec les restes, réduire le gaspillage alimentaire</h2>
+                                <p>Chaque année, le gaspillage alimentaire représente près de 10 millions de tonnes de nourriture… un chiffre qui donne le tournis ! Ni une ni deux : il est grand temps de mettre en place quelques gestes simples pour enrayer la tendance. Placés en bout de chaîne alimentaire, les consommateurs peuvent se révéler très efficaces pour éviter les pertes inutiles. Vous redoutez une nouvelle routine anti-gaspillage morne et chronophage ? Pas de panique ! Grâce à nos conseils, découvrez un nouveau territoire culinaire riche en créativité qui soulage les porte-monnaie ! Car cuisiner sans gaspiller, ce n’est pas seulement surveiller les dates limites de consommation des produits frais. Après seulement quelques ajustements, vous cuisinerez au mieux les fruits et les légumes. Vous prendrez aussi l’habitude de conserver vos aliments plus efficacement, tout en réutilisant les restes… Les bons plans anti-gaspi, c’est par ici !</p>
+                            </div>
+                        </div>
+                    </div>                      
+            <div class="row">
+                <div class="col-lg-3 col-md-6 col-sm-6">
+
+                    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                        <ol class="carousel-indicators">
+                            <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"></li>
+                            <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" ></li>
+                            <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" ></li>
+                            <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" ></li>
+                            <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" ></li>
+                            <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5" ></li>
+                            <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="6" ></li>
+                            
+                        </ol>
+                        <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="img/theme/tendance/recette_anti_gachi/gratin.jpeg" class="d-block w-100" alt="photo">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/theme/tendance/recette_anti_gachi/pain_perdu.jpeg" class="d-block w-100" alt="photo">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/theme/tendance/recette_anti_gachi/pizza.jpeg" class="d-block w-100" alt="photo">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/theme/tendance/recette_anti_gachi/toqué.jpg" class="d-block w-100" alt="photo">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/theme/tendance/recette_anti_gachi/brunch2.jpeg" class="d-block w-100" alt="photo">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/theme/tendance/recette_anti_gachi/dessert.jpeg" class="d-block w-100" alt="photo">
+                        </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </a>
+                    </div></br>
+
+                <div> 
+                    <a href="#" class="btn btn-outline-warning">RECETTE ANTI GACHI</a>
+                    <p class="text-muted">ipsum loren ipsum Loren ipsum loren ipsum Loren ipsum loren ipsum Loren ipsum loren ipsum</p></div>
+                </div> 
+
+                 <div class="col-lg-3 col-md-6 col-sm-6">
+
+                    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                        <ol class="carousel-indicators">
+                            <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"></li>
+                            <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" ></li>
+                            <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" ></li>
+                            <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" ></li>
+                            <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" ></li>
+                            <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5" ></li>
+                            <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="6" ></li>
+                            
+                        </ol>
+                        <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="img/theme/tendance/vegan/qu-est-ce-que-le-regime-vegan.jpeg" class="d-block w-100" alt="photo">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/theme/tendance/vegan/aperitif-vegan.jpeg" class="d-block w-100" alt="photo">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/theme/tendance/vegan/brunch-vegan.jpeg" class="d-block w-100" alt="photo">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/theme/tendance/vegan/cookies-vegan.jpeg" class="d-block w-100" alt="photo">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/theme/tendance/vegan/entrees-vegant.jpeg" class="d-block w-100" alt="photo">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/theme/tendance/vegan/petit-dejeuner-vegan.jpeg" class="d-block w-100" alt="photo" >
+                        </div>
+                        
+                        </div>
+                        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </a>
+                    </div></br>
+
+                <div> 
+                    <a href="#" class="btn btn-outline-warning">VEGAN</a>
+                    <p class="text-muted">ipsum loren ipsum Loren ipsum loren ipsum Loren ipsum loren ipsum Loren ipsum loren ipsum</p></div>
+                </div> 
+
+                 <div class="col-lg-3 col-md-6 col-sm-6">
+
+                    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                        <ol class="carousel-indicators">
+                            <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"></li>
+                            <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" ></li>
+                            <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" ></li>
+                            <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" ></li>
+                            <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" ></li>
+                            <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5" ></li>
+                            <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="6" ></li>
+                            
+                        </ol>
+                        <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="img/theme/tendance/facile/mojitea.jpeg" class="d-block w-100" alt="photo" width="200px" height="250px">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/theme/tendance/facile/tete-de-choco-maison.jpeg" class="d-block w-100" alt="photo" width="200px" height="250px">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/theme/tendance/facile/frites-sucrees.jpeg" class="d-block w-100" alt="photo" width="200px" height="250px">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/theme/tendance/facile/cookies-de-parmesan.jpg" class="d-block w-100" alt="photo" width="200px" height="250px">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/theme/tendance/facile/detox-zater-citron-mente.jpeg" class="d-block w-100" alt="photo" width="200px" height="250px">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/theme/tendance/facile/mojitea.jpeg" class="d-block w-100" alt="photo" width="200px" height="250px"> 
+                        </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </a>
+                    </div></br>
+
+                <div> 
+                    <a href="#" class="btn btn-outline-warning">RECETTES FACILES</a>
+                    <p class="text-muted">ipsum loren ipsum Loren ipsum loren ipsum Loren ipsum loren ipsum Loren ipsum loren ipsum</p></div>
+                </div>    
+
+                <div class="col-lg-3 col-md-6 col-sm-6">
+
+                    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                        <ol class="carousel-indicators">
+                            <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"></li>
+                            <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" ></li>
+                            <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" ></li>
+                            <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" ></li>
+                            <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" ></li>
+                            <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5" ></li>
+                            <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="6" ></li>
+                            
+                        </ol>
+                        <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="img/theme/tendance/bien_manger/liste_healthy.jpeg" class="d-block w-100" alt="photo" width="200px" height="250px">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/theme/tendance/bien_manger/lai_de_coco.jpeg" class="d-block w-100" alt="photo" width="200px" height="250px">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/theme/tendance/bien_manger/idees-d-encas-healthy.jpeg" class="d-block w-100" alt="photo" width="200px" height="250px">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/theme/tendance/bien_manger/comment-mieux-manger-et-pas-cher.jpg" class="d-block w-100" alt="photo" width="200px" height="250px">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/theme/tendance/bien_manger/comment-cuisiner-healthy.jpg" class="d-block w-100" alt="photo" width="200px" height="250px">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/theme/tendance/bien_manger/gratin-de-tomate-mozzarella-et-aubergines.jpeg" class="d-block w-100" alt="photo" width="200px" height="250px">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/theme/tendance/bien_manger/le-calendrier-des-fruits-et-legumes-de-saison.jpeg" class="d-block w-100" alt="photo" width="200px" height="250px">
+                        </div>
+                       
+                        </div>
+                        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </a>
+                    </div></br>
+
+                <div> 
+                    <a href="#" class="btn btn-outline-warning">BIEN MANGER</a>
+                    <p class="text-muted">ipsum loren ipsum Loren ipsum loren ipsum Loren ipsum loren ipsum Loren ipsum loren ipsum</p></div>
+                </div>   
+               
+            </div>
+                </div>  
+            </section>
+            <!-- End service Area -->
+            
+            <!-- Start about Area -->
+            <section class="about-area section-gap" id="classique">
+                <div class="container">
+                    <div class="row d-flex justify-content-center">
+                        <div class="menu-content pb-70 col-lg-8">
+                            <div class="title text-center">
+                                <h1 class="mb-10">CLASSIQUES</h1>
+                                <h2>Cuisine du monde</h2>
+                                <p>Embarquement immédiat pour un tour du monde culinaire. Les passagers sont appelés à enfiler leur tablier. Que vous ayez envie d'un alloco venu tout droit d'Afrique, d'une soupe miso purement japonaise, ou de pasta à la carbonara (les vraies de vraies), et encore plein d'autres recettes du monde, vous êtes tombés au bon endroit. Le voyage culinaire que vous vous apprêtez à faire ne nécessite aucun visa. À vous les épices, les saveurs exotiques, les spécialités culinaires complètement inconnues. Place à la cuisine du monde, avec les recettes incontournables pays par pays.</p>
+                            </div>
+                        </div>
+                    </div>                  
+                    <div class="row">
+            <div class="col-lg-3 col-md-6 col-sm-6"><img src="img/theme/classique/cuisine-du-canada.jpeg" class="img-thumbnail rounded" alt="left"></br></br>
+               <a href="#" class="btn btn-outline-warning">Cuisine du Canada</a>
+               <p class="text-muted">ipsum loren ipsum Loren ipsum loren ipsum Loren ipsum loren ipsum Loren ipsum loren ipsum</p></div>
+            <div class="col-lg-3 col-md-6 col-sm-6"><img src="img/theme/classique/recettes-algeriennes.jpeg" class="img-thumbnail rounded" alt="left"></br></br>
+               <a href="#" class="btn btn-outline-warning">Recettes algeriennes</a>
+               <p class="text-muted">ipsum loren ipsum Loren ipsum loren ipsum Loren ipsum loren ipsum Loren ipsum loren ipsum</p></div>
+            <div class="col-lg-3 col-md-6 col-sm-6"><img src="img/theme/classique/recettes-americaines.jpeg" class="img-thumbnail rounded" alt="left"></br></br>
+               <a href="#" class="btn btn-outline-warning">Recettes americaines</a>
+               <p class="text-muted">ipsum loren ipsum Loren ipsum loren ipsum Loren ipsum loren ipsum Loren ipsum loren ipsum</p></div>
+            <div class="col-lg-3 col-sm-6"><img src="img/theme/classique/recettes-argentine.jpeg" class="img-fluid rounded" alt="left"></br></br>
+               <a href="#" class="btn btn-outline-warning">Recettes argentines</a>
+               <p class="text-muted">ipsum loren ipsum Loren ipsum loren ipsum Loren ipsum loren ipsum Loren ipsum loren ipsum</p></div>
+          </div>
+
+           <div class="row">
+            <div class="col-lg-3 col-md-6 col-sm-6"><img src="img/theme/classique/recettes-belges.jpeg" class="img-thumbnail rounded" alt="left"></br></br>
+               <a href="#" class="btn btn-outline-warning">Cuisine Belge</a>
+               <p class="text-muted">ipsum loren ipsum Loren ipsum loren ipsum Loren ipsum loren ipsum Loren ipsum loren ipsum</p></div>
+            <div class="col-lg-3 col-md-6 col-sm-6"><img src="img/theme/classique/recettes-bresil.jpeg" class="img-thumbnail rounded" alt="left"></br></br>
+               <a href="#" class="btn btn-outline-warning">Recettes Bresil</a>
+               <p class="text-muted">ipsum loren ipsum Loren ipsum loren ipsum Loren ipsum loren ipsum Loren ipsum loren ipsum</p></div>
+            <div class="col-lg-3 col-md-6 col-sm-6"><img src="img/theme/classique/recettes-camerounaises.jpeg" class="img-thumbnail rounded" alt="left"></br></br>
+               <a href="#" class="btn btn-outline-warning">Recettes Camerounaines</a>
+               <p class="text-muted">ipsum loren ipsum Loren ipsum loren ipsum Loren ipsum loren ipsum Loren ipsum loren ipsum</p></div>
+            <div class="col-lg-3 col-sm-6"><img src="img/theme/classique/recettes-caraibes.jpeg" class="img-fluid rounded" alt="left"></br></br>
+               <a href="#" class="btn btn-outline-warning">Recettes Caraibe</a>
+               <p class="text-muted">ipsum loren ipsum Loren ipsum loren ipsum Loren ipsum loren ipsum Loren ipsum loren ipsum</p></div>
+          </div>
+
+           <div class="row">
+            <div class="col-lg-3 col-md-6 col-sm-6"><img src="img/theme/classique/recettes-d-afrique-du-sud.jpeg" class="img-thumbnail rounded" alt="left"></br></br>
+               <a href="#" class="btn btn-outline-warning">Recettes d'Afrique du Sud</a>
+               <p class="text-muted">ipsum loren ipsum Loren ipsum loren ipsum Loren ipsum loren ipsum Loren ipsum loren ipsum</p></div>
+            <div class="col-lg-3 col-md-6 col-sm-6"><img src="img/theme/classique/recettes-de-cote-d-ivoire.jpeg" class="img-thumbnail rounded" alt="left"></br></br>
+               <a href="#" class="btn btn-outline-warning">Recettes de la Cote d'Ivoire</a>
+               <p class="text-muted">ipsum loren ipsum Loren ipsum loren ipsum Loren ipsum loren ipsum Loren ipsum loren ipsum</p></div>
+            <div class="col-lg-3 col-md-6 col-sm-6"><img src="img/theme/classique/recettes-de-l-ile-maurice.jpeg" class="img-thumbnail rounded" alt="left"></br></br>
+               <a href="#" class="btn btn-outline-warning">Recettes de l'Ile Maurice</a>
+               <p class="text-muted">ipsum loren ipsum Loren ipsum loren ipsum Loren ipsum loren ipsum Loren ipsum loren ipsum</p></div>
+            <div class="col-lg-3 col-sm-6"><img src="img/theme/classique/recettes-du-benin.jpeg" class="img-fluid rounded" alt="left"></br></br>
+               <a href="#" class="btn btn-outline-warning">Recettes de Benin</a>
+               <p class="text-muted">ipsum loren ipsum Loren ipsum loren ipsum Loren ipsum loren ipsum Loren ipsum loren ipsum</p></div>
+          </div>
+
+          <div class="row">
+            <div class="col-lg-3 col-md-6 col-sm-6"><img src="img/theme/classique/recettes-senegalaise.jpg" class="img-thumbnail rounded" alt="left" height="350px" width="500px"></br></br>
+               <a href="#" class="btn btn-outline-warning">Recettes Senegalaises</a>
+               <p class="text-muted text-color-warning">ipsum loren ipsum Loren ipsum loren ipsum Loren ipsum loren ipsum Loren ipsum loren ipsum</p></div>
+            <div class="col-lg-3 col-md-6 col-sm-6"><img src="img/theme/classique/recettes-japonaises.jpeg" class="img-thumbnail rounded" alt="left"></br></br>
+               <a href="#" class="btn btn-outline-warning">Recettes Japonaises</a>
+               <p class="text-muted">ipsum loren ipsum Loren ipsum loren ipsum Loren ipsum loren ipsum Loren ipsum loren ipsum</p></div>
+            <div class="col-lg-3 col-md-6 col-sm-6"><img src="img/theme/classique/recettes-marocaines.jpeg" class="img-thumbnail rounded" alt="left"></br></br>
+               <a href="#" class="btn btn-outline-warning">Recettes du Maroc</a>
+               <p class="text-muted">ipsum loren ipsum Loren ipsum loren ipsum Loren ipsum loren ipsum Loren ipsum loren ipsum</p></div>
+            <div class="col-lg-3 col-sm-6"><img src="img/theme/classique/recettes-mexique.jpeg" class="img-fluid rounded" alt="left"></br></br>
+               <a href="#" class="btn btn-outline-warning">Recettes du Mexique</a>
+               <p class="text-muted">ipsum loren ipsum Loren ipsum loren ipsum Loren ipsum loren ipsum Loren ipsum loren ipsum</p></div>
+          </div>
+
+          <div class="row">
+            <div class="col-lg-3 col-md-6 col-sm-6"><img src="img/theme/classique/recettes-reunionaises.jpeg" class="img-thumbnail rounded" alt="left"></br></br>
+               <a href="#" class="btn btn-outline-warning">Recettes reunionaises</a>
+               <p class="text-muted">ipsum loren ipsum Loren ipsum loren ipsum Loren ipsum loren ipsum Loren ipsum loren ipsum</p></div>
+            <div class="col-lg-3 col-md-6 col-sm-6"><img src="img/theme/classique/recettes-tahitiennes.jpeg" class="img-thumbnail rounded" alt="left"></br></br>
+               <a href="#" class="btn btn-outline-warning">Recettes tahitiennes</a>
+               <p class="text-muted">ipsum loren ipsum Loren ipsum loren ipsum Loren ipsum loren ipsum Loren ipsum loren ipsum</p></div>
+            <div class="col-lg-3 col-md-6 col-sm-6"><img src="img/theme/classique/recettes-tunisiennes.jpeg" class="img-thumbnail rounded" alt="left"></br></br>
+               <a href="#" class="btn btn-outline-warning">Recettes tunisiennes</a>
+               <p class="text-muted">ipsum loren ipsum Loren ipsum loren ipsum Loren ipsum loren ipsum Loren ipsum loren ipsum</p></div>
+            <div class="col-lg-3 col-sm-6"><img src="img/theme/classique/yassa_poulet.jpeg" class="img-fluid rounded" alt="left" height="200px" width="200px"></br></br>
+               <a href="#" class="btn btn-outline-warning">Recettes senegalaises</a>
+               <p class="text-muted">ipsum loren ipsum Loren ipsum loren ipsum Loren ipsum loren ipsum Loren ipsum loren ipsum</p></div>
+          </div>
+                </div>  
+            </section>
+            <!-- End about Area -->
+            
+
+            
+                                        
+            <!-- contact Area -->       
+            <section class="contact-area section-gap" id="fete">
+                <div class="container">
+                    <div class="row d-flex justify-content-center">
+                        <div class="menu-content pb-20 col-lg-8">
+                            <div class="title text-center">
+                                <h1 class="mb-10">FETE</h1>
+                                <h2>Recette de Noel</h2>
+                                <p>Réalisez un repas de Noël 100% fait maison avec nos meilleures recettes, de l’apéro au dessert. Place aux grands classiques du menu de Noël : foie gras, saumon fumé, Saint-Jacques, chapon, pintade, bûche, etc. Recettes traditionnelles, originales, créatives, adaptées aux envies de chacun… sélectionnez les recettes de Noël qui vous ressemblent :-). Sur ces quelques lignes gourmandes, nous vous souhaitons un très beau Noël 2020</p>
+                            </div>
+                        </div>
+                    </div>                                      
+                     <div class="row">
+            <div class="col-lg-3 col-md-6 col-sm-6"><img src="img/theme/fete/buche.jpeg" class="img-thumbnail rounded" alt="left" height="200px" width="140px"></br></br>
+                             <a href="#" class="btn btn-outline-warning">Buche de noel</a>
+               <p class="text-muted">ipsum loren ipsum Loren ipsum loren ipsum Loren ipsum loren ipsum Loren ipsum loren ipsum</p></div>
+            <div class="col-lg-3 col-md-6 col-sm-6"><img src="img/theme/fete/buche2.jpg" class="img-thumbnail rounded" alt="left" height="200px" width="170px"></br></br>
+                             <a href="#" class="btn btn-outline-warning">Buche de noel</a>
+               <p class="text-muted">ipsum loren ipsum Loren ipsum loren ipsum Loren ipsum loren ipsum Loren ipsum loren ipsum</p></div>
+            <div class="col-lg-3 col-md-6 col-sm-6"><img src="img/theme/fete/gateau-annif.jpg" class="img-thumbnail rounded" alt="left" height="1000px" width="1100px" ></br></br>
+                             <a href="#" class="btn btn-outline-warning">Gateau</a>
+               <p class="text-muted">ipsum loren ipsum Loren ipsum loren ipsum Loren ipsum loren ipsum Loren ipsum loren ipsum</p></div>
+            <div class="col-lg-3 col-sm-6"><img src="img/theme/fete/brunch.jpeg" class="img-fluid rounded" alt="left" height="200px" width="130px" style="margin-left:70px"></br></br>
+               <a href="#" class="btn btn-outline-warning">Brunch</a>
+               <p class="text-muted">ipsum loren ipsum Loren ipsum loren ipsum Loren ipsum loren ipsum Loren ipsum loren ipsum</p></div>
+          </div>               
+                    
+                </div>  
+
+                <div class="container">
+                    <div class="row d-flex justify-content-center">
+                        <div class="menu-content pb-20 col-lg-8">
+                            <div class="title text-center">
+                                
+                                <h2 class="mb-10">Repas de Ramadan</h2>
+                                <p>Le Ramadan est une fête traditionnelle de la religion musulmane et l'un des cinq piliers de l’Islam. Ce rite traditionnel est prescrit par le Coran autour d’un jeûne qu’on appelle en arabe sawm ou siyyâm. C’est une période de recueillement au cours de laquelle les musulmans ne doivent ni manger, ni boire de l’aube au coucher du soleil. Le Ramadan 2020 aura lieu du jeudi 23 avril au samedi 23 mai. Qui dit jeûne, dit rupture du jeûne et donc repas du Ramadan, dont l'heure est fixée au coucher du soleil. Pour que la rupture du jeûne soit synonyme de partage, de convivialité et de générosité en famille, on vous propose une sélection de recettes spéciales Ramadan. Traditionnelles ou originales, simples ou élaborées, nous avons pensé à tous les incontournables pour que vous profitiez pleinement de cette période de fête. Entrées, plats, desserts, boissons, tout est là pour faire du repas du Ramadan, une fête familiale traditionnelle ! Profitez des meilleures recettes de nos internautes et de nos chefs cuisiniers pour vous régaler et partager des repas mémorables. Goûtez à notre sélection de recettes spéciales Ramadan. Entrées, plats, desserts, boissons, tout est là pour concocter un savoureux menu de Ramadan. Notre pêché mignon ? Les pâtisseries orientales… Et vous ?</p>
+                            </div>
+                        </div>
+                    </div>                                      
+                     <div class="row">
+            <div class="col-lg-6 col-md-6 col-sm-6 "><img src="img/theme/fete/ramadan.jpeg" class="img-thumbnail rounded" alt="left" style="margin-left:320px"></br></br>
+              <a href="#" class="btn btn-outline-warning" style="margin-left:430px">Les recettes du Ramadan</a>
+              </div>
+            
+          </div>               
+                    
+                </div> </br></br> </br>
+
+                <div class="container">
+                    <div class="row d-flex justify-content-center">
+                        <div class="menu-content pb-20 col-lg-8">
+                            <div class="title text-center">
+                                
+                                <h2 class="mb-10">Gateaux d'anniversaire</h2>
+                                <p>Le gâteau est un des éléments incontournables d’un anniversaire réussi ! Et rien de tel qu’un gâteau d’anniversaire maison pour faire plaisir et se régaler à coup sûr. Même si vous êtes débutants en pâtisserie, vous pourrez essayer nos recettes de gâteaux d’anniversaire faciles. Pour être certains de choisir le gâteau le plus adapté, nous vous avons concoctés des recettes de gâteaux d’anniversaire pour enfants, pour adultes, pour les filles et les garçons. De quoi trouver votre bonheur en toute simplicité. Bien évidemment, vous pourrez miser sur une saveur classique et qui plaît à toute la famille : les gâteaux d’anniversaire au chocolat. Un anniversaire est l’occasion de mettre les petits plats dans les grands. Bluffez toute votre tablée avec un gâteau joliment décoré. Les idées de gâteaux d’anniversaire maison ne manquent pas, alors ne perdez pas une minute pour passer aux fourneaux ! </p>
+                            </div>
+                        </div>
+                    </div>                                      
+                      <div class="row">
+            <div class="col-lg-6 col-md-6 col-sm-6"><img src="img/theme/fete/gateau-d-anniversaire.jpg" class="img-thumbnail rounded" alt="left" style="margin-left:290px"></br></br>
+                             <a href="#" class="btn btn-outline-warning" style="margin-left:450px">Gateaux d'anniversaire</a>
+               </div>
+           
+           
+                   </div>            
+                    
+                </div> </br></br> </br> 
+
+                <div class="container">
+                    <div class="row d-flex justify-content-center">
+                        <div class="menu-content pb-20 col-lg-8">
+                            <div class="title text-center">
+                                
+                                <h2 class="mb-10">Saint Valentin</h2>
+                                <p>Le 14 Février, la Saint-Valentin est l'occasion de mettre les petits plats dans les grands pour un dîner romantique et savoureux. Que ce soit pour l'apéritif, l'entrée, le plat ou le dessert, craquez pour nos recettes spéciales Saint-Valentin qui risquent d'épater votre bien-aimé(e). 
+                                Foie gras, saumon fumé et Noix de Saint-Jacques font leur come-back pour un dîner aux allures chics et romantiques. Pour un repas basé sur des produits du quotidien, misez sur des petites bouchées au fromage frais, un burger en forme de cœur, une mousse au chocolat. Le choix ne manque pas. Des recettes simples aux plus originales, il y en a pour tous les goûts. Prêt pour un tête-à-tête explosif en saveurs ? Dressez la nappe, allumez la bougie, et bon appétit :-)</p>
+                            </div>
+                        </div>
+                    </div>                                      
+                     <div class="row">
+            <div class="col-lg-4 col-md-6 col-sm-6"><img src="img/theme/fete/Repas-en-amoureux.jpg" class="img-thumbnail rounded" alt="left" height="0px" width="187px" style="margin-left:120px"></br></br>
+                             <a href="#" class="btn btn-outline-warning" style="margin-left:130px">Repas en amoureux</a>
+               <p class="text-muted" style="margin-left:70px">ipsum loren ipsum Loren ipsum loren ipsum Loren ipsum loren ipsum Loren ipsum loren ipsum</p></div>
+            <div class="col-lg-4 col-md-6 col-sm-6"><img src="img/theme/fete/repas-sv.jpeg" class="img-thumbnail rounded" alt="left" height="300px" width="280px" style="margin-left:20px"></br></br>
+                             <a href="#" class="btn btn-outline-warning" style="margin-left:50px">Repas saint valentin</a>
+               <p class="text-muted">ipsum loren ipsum Loren ipsum loren ipsum Loren ipsum loren ipsum Loren ipsum loren ipsum</p></div>
+            <div class="col-lg-4 col-md-6 col-sm-6"><img src="img/theme/fete/dessert-saint-valentin.jpg" class="img-thumbnail rounded" alt="left" height="300px" width="300px"></br></br>
+                             <a href="#" class="btn btn-outline-warning" style="margin-left:50px">Dessert saint valenti</a>
+               <p class="text-muted">ipsum loren ipsum Loren ipsum loren ipsum Loren ipsum loren ipsum Loren ipsum loren ipsum</p></div>
+            
+          </div>              
+                    
+                </div>  </br></br> </br>
+
+                <div class="container">
+                    <div class="row d-flex justify-content-center">
+                        <div class="menu-content pb-20 col-lg-8">
+                            <div class="title text-center">
+                                
+                                <h2 class="mb-10">Menu de Paque</h2>
+                                <p>Les enfants (et les plus grands), réveillez-vous, c'est Pâques ! C'est l'heure d'aller chercher les œufs cachés dans la maison, l'appartement ou pour les plus chanceux, le jardin. Après la chasse aux œufs, place au repas ! Cette année, pour célébrer dignement Pâques, proposez à vos proches un repas qu’ils ne seront pas prêts d’oublier. En respectant les traditions bien sûr ! Entre les recettes d’œufs, celles à l’agneau ou encore celles au chocolat, vous avez l’embarras du choix. Et vous le savez très bien, sans ces mets d’exception sur votre table, ça ne serait pas vraiment Pâques… Retrouvez des recettes de Pâques traditionnelles qui donnent l’eau à la bouche. Joyeuses Pâques à tous !</p>
+                            </div>
+                        </div>
+                    </div>                                      
+                     <div class="row">
+            <div class="col-lg-3 col-md-6 col-sm-6"><img src="img/theme/fete/oeufs-durs-paques.jpg" class="img-thumbnail rounded" alt="left" height="200px" width="250px"></br></br>
+                             <a href="#" class="btn btn-outline-warning">Oeufs durs paques</a>
+               <p class="text-muted">ipsum loren ipsum Loren ipsum loren ipsum Loren ipsum loren ipsum Loren ipsum loren ipsum</p></div>
+            <div class="col-lg-3 col-md-6 col-sm-6"><img src="img/theme/fete/PatedePaques.jpg" class="img-thumbnail rounded" alt="left" height="200px" width="270px"></br></br>
+                             <a href="#" class="btn btn-outline-warning">Repas paque</a>
+               <p class="text-muted">ipsum loren ipsum Loren ipsum loren ipsum Loren ipsum loren ipsum Loren ipsum loren ipsum</p></div>
+            <div class="col-lg-3 col-md-6 col-sm-6"><img src="img/theme/fete/repas-de-paque.jpeg" class="img-thumbnail rounded" alt="left" height="1000px" width="1000px"></br></br>
+                             <a href="#" class="btn btn-outline-warning">Repas de paque</a>
+               <p class="text-muted">ipsum loren ipsum Loren ipsum loren ipsum Loren ipsum loren ipsum Loren ipsum loren ipsum</p></div>
+            <div class="col-lg-3 col-sm-6"><img src="img/theme/fete/menu-classique.jpg" class="img-fluid rounded" alt="left" height="200px" width="270px"></br></br>
+               <a href="#" class="btn btn-outline-warning">Menu Classique</a>
+               <p class="text-muted">ipsum loren ipsum Loren ipsum loren ipsum Loren ipsum loren ipsum Loren ipsum loren ipsum</p></div>
+          </div>          
+                    
+                </div>  
+            </section>
+            <!-- end contact Area -->       
+            <!-- start footer Area -->  
+<div class="container-fluid bg-dark" style="padding-bottom:0px">    
+            <footer class=" section-gap">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-lg-5  col-md-6 col-sm-6">
+                            <div class="single-footer-widget">
+                                <h6>À propos</h6>
+                                <p>
+                                    blabbla blablba                             </p>
+                                <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                                   <div><p class="text-light py-4 m-0">&copy; copyright 2020 - by Tony Delice</p></div>
+                    <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                            </div>
+                        </div>
+                        <div class="col-lg-5  col-md-6 col-sm-6">
+                            <div class="single-footer-widget">
+                                <h6>Newsletter</h6>
+                                <p>Restez au courant</p>
+                                <div class="" id="mc_embed_signup">
+
+                                        <form target="_blank" novalidate="true" action="https://spondonit.us12.list-manage.com/subscribe/post?u=1462626880ade1ac87bd9c93a&amp;id=92a4423d01" method="get" class="form-inline">
+
+                                        <div class="d-flex flex-row">
+
+                                            <input class="form-control" name="EMAIL" placeholder="Enter Email" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Email '" required="" type="email">
+
+
+                                                <button class="click-btn btn btn-default"><i class="fa fa-long-arrow-right" aria-hidden="true"></i></button>
+                                                <div style="position: absolute; left: -5000px;">
+                                                    <input name="b_36c4fd991d266f23781ded980_aefe40901a" tabindex="-1" value="" type="text">
+                                                </div>
+                                            
+                                            <!-- <div class="col-lg-4 col-md-4">
+                                                <button class="bb-btn btn"><span class="lnr lnr-arrow-right"></span></button>
+                                            </div>  -->
+                                        </div>      
+                                        <div class="info"></div>
+                                        </form>
+                                </div>
+                                </div>
+                        </div>                          
+                        <div class="col-lg-2 col-md-6 col-sm-6 social-widget">
+                            <div class="single-footer-widget">
+                                <h6>Suivez-moi</h6>
+                                <p>Sur les réseaux-sociaux</p>
+                                <div class="footer-social d-flex align-items-center">
+                                     <a href="#"><i class="fab fa-facebook  text-primary "></i></a>
+                                     <a href="#"><i class="fab fa-twitter text-info "></i></a>
+                                     <a href="#"><i class="fab fa-youtube text-danger "></i></a>
+                                     <a href="#"><i class="fab fa-instagram text-danger "></i></a>
+                                     <a href="#"><i class="fab fa-tiktok text-black "></i></a>
+                                </div>
+                            </div>
+                        </div>                          
+                    </div>
+                </div>
+         </footer>
+    </div>  
+            <!-- End footer Area -->            
+
+            
+            <script src="js/vendor/jquery-2.2.4.min.js"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+            <script src="js/vendor/bootstrap.min.js"></script>
+            <script src="js/jquery.ajaxchimp.min.js"></script>
+            <script src="js/jquery.magnific-popup.min.js"></script>
+            <script src="js/parallax.min.js"></script>          
+            <script src="js/owl.carousel.min.js"></script>          
+            <script src="js/jquery.sticky.js"></script>
+
+            <script src="js/main.js"></script>  
+        </body>
+    </html>
